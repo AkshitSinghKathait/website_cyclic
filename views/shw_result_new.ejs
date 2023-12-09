@@ -1,0 +1,26 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<div class="card" style="width: 18rem;">
+    <img src="https://lh3.googleusercontent.com/_0OiZeWgElIETUMZW8B9wEZR-V0BLMyDBHfK6hdYQVGzsryLQAZ0GEL9_PDi5NlzmpK8bETuJcZ0CtUQKnErvs36Xw=w640-h400-e365-rj-sc0x00ffffff" class="card-img-top" alt="...">
+    <div class="card-body" >
+      <h5 class="card-title">Summary</h5>
+      <p class="card-text"><%= database %></p>
+      <p class="card-text"><%= retrieve %></p>
+      <p class="card-text">Recommended stockcodes are</p>
+      <p class="card-text"><%= stock_a1 %></p>
+      <p class="card-text"> <%= stock_b1 %></p>
+      <p class="card-text"><%= stock_c1 %></p>
+
+      <form action="/enter_data" method="Get">
+        <button class="btn btn-primary w-100 py-2" type="submit" >Enter new order</button>
+       </form>
+       <form action="/" method="Get">
+        <button class="btn btn-primary w-100 py-2" type="submit" >Home page</button>
+       </form>
+       <form action="/Get_data" method="Get">
+        <button class="btn btn-primary w-100 py-2" type="submit" >Customer Recommendation</button>
+       </form>
+       
+      
+    </div>
+  </div>

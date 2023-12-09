@@ -1,0 +1,37 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<div class="card text-center">
+  <div class="card-header">
+    WELCOME 
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Data Entry And Reccomendation Suggestor</h5>
+    <p class="card-text">What do you want to do :</p>
+
+    <form action="/enter_data" method="Get">
+      <div class="form-floating">
+      <button class="btn btn-primary w-5 py-2" type="submit" > Enter a new order </button>
+      </div>
+      </form>
+
+      <form action="/train" method="Get">
+        <div class="form-floating">
+        <button class="btn btn-primary w-5 py-2" type="submit" > Train the model on updated data  </button>
+        </div>
+        </form>
+
+        <form action="/Get_data" method="Get">
+          <div class="form-floating">
+          <button class="btn btn-primary w-5 py-2" type="submit" > See Reccomendation </button>
+          </div>
+          </form>
+
+    
+  </div>
+  <div class="card-footer text-muted">
+    Thank you for visiting
+  </div>
+</div>
+
+
+

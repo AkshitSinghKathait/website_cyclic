@@ -1,0 +1,56 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<main class="form-signin w-100 m-auto">
+  
+  <form action="/submit" method="POST">
+    
+    <h1 class="h3 mb-3 fw-normal"> Please enter the order data</h1>
+
+    <div class="form-floating">
+      <input type="text" class="form-control" name="InvoiceNo" required id="floatingInput" placeholder="InvoiceNo">
+      <label for="floatingInput">Invoice Number</label>
+    </div>
+    
+
+    <div class="form-floating">
+      <input type="text" class="form-control" name="StockCode" required id="floatingInput" placeholder="StockCode">
+      <label for="StockCode">Stock Code</label>
+    </div>
+    
+    <div class="form-floating">
+      <input type="text" class="form-control" name="Description" required id="floatingInput" placeholder="Description">
+      <label for="Description">Description</label>
+    </div>
+
+    <div class="form-floating">
+      <input type="text" class="form-control" name="InvoiceDate" required id="floatingInput" placeholder="Invoice Date . Format : 12/1/2010 13:17">
+      <label for="InvoiceDate">Invoice Date Format : 12/1/2010 13:17</label>
+    </div> 
+    
+    <div class="form-floating">
+      <input type="text" class="form-control" name="Country" required id="floatingInput" placeholder="Country">
+      <label for="Country">Country</label>
+    </div> 
+    
+    <div class="form-floating">
+      <input type="nummber" class="form-control" name="Quantity" required id="floatingInput" placeholder="Quantity">
+      <label for="Quantity">Quantity</label>
+    </div> 
+    
+    <div class="form-floating">
+      <input type="nummber" class="form-control" name="UnitPrice" required id="floatingInput" placeholder="UnitPrice">
+      <label for="UnitPrice">UnitPrice</label>
+    </div> 
+    
+    <div class="form-floating">
+      <input type="nummber" class="form-control" name="CustomerID" required id="floatingInput" placeholder="CustomerID">
+      <label for="CustomerID">CustomerID</label>
+    </div> 
+
+    <button class="btn btn-primary w-100 py-2" type="submit" >Submit</button>
+    
+  </form>
+</main>
+
+
+
